@@ -1,0 +1,81 @@
+body{
+    background-color: #D1D1D1;
+    color:  #001427;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+header{
+    margin: 10px;
+    padding: 15px;
+    background-color: #abb3d4;
+    border-style: solid;
+    border-color: #A18A5D;
+    border-radius: 5px;
+}
+
+main{
+    margin: 10px;
+    padding: 15px;    
+}
+
+footer{
+    margin: 10px;
+    padding: 15px;
+    background-color: #abb3d4;
+    border-style: solid;
+    border-color: #A18A5D;
+    border-radius: 5px;
+    margin:120px;
+}
+#details{
+    background-color: #9B9ECE;
+    margin: auto;
+    padding:15px;
+    width: 50%;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #A18A5D;
+}
+p{
+    margin: auto;
+    padding:15px;
+    width: 50%;
+
+}
+
+h2{
+    background-color: #555f87;
+    border-width: 10;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #9B9ECE;
+    width:60%;
+    padding: 20px;
+    margin-left: 16%;
+
+}
+
+ul{
+    list-style-type: none;
+    margin: auto;
+    padding:15px;
+    width: 50%;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #A18A5D;
+}
+
+li{
+    background-color: #9B9ECE;
+    padding: 5px;
+}
+
+/* 5/14/2025 */
+
+
+/* #9B9ECE <light
+ #6665DD
+ */
