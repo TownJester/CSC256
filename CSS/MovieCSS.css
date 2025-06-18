@@ -1,0 +1,57 @@
+header{
+    margin: 15px;
+    padding: 5px; 
+    background-color: black;
+    border-radius: 5px;
+    border-width: 15px;
+    border-style:dotted;
+    border-color:yellow;
+}
+h1{
+    text-align: center;
+     background-color: white;
+    color:black;
+    border-width: 5px;
+    border-color:red;
+    border-radius: 15px;
+    border-style:double;
+    margin: 15px;
+    padding: 5px; 
+    font-size:50px;
+    font-family:fantasy;
+
+}
+main{
+    margin: 15px;
+    margin-left: 15%;
+    padding: 5px; 
+    width: 70%;
+    text-align: center;
+    background-color: black;
+    border: solid white 5px;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: black;}
+button{
+    margin: 15px;
+    padding: 5px; 
+    color:white;
+    background-color:black;
+    border-color:white;
+    border-width: 3px;
+
+}
+#MovieDis{
+    margin: 15px;
+    padding: 5px; 
+    overflow-y:auto;
+}
+
+
+
+
+/* 
+6/18/2025 
+*/
