@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Flower Input</title>
+    <script src="JavaScript/FlowerProcessInput.js"></script>
+    <link rel="stylesheet" href="CSS/FlorStyleInput.css">
+</head>
+<body>
+    <header> <h1> Flower Information </h1> </header>
+    <main>
+        <h2> Enter Info Down Below! </h2>
+        <form id="InputForm" name="InputForm">
+
+        <div class="container">
+
+        <div class="FlorFormN"> <label for="FlorName"> Flower Name: </label>
+        <input type="text" id="FlorName" name="FlorName"> </div>
+        
+        <div class="FlorFormC"> <label for="FlorColor"> Flower Color: </label>
+        <input type="text" id="FlorColor" name="FlorColor"> </div>
+        
+        <div class="FlorFormG"> <label for="GrowthArea"> Environment: </label>
+        <input type="text" id="GrowthArea" name="GrowthArea"> </div>
+
+        <div class="FlorFormP"> <label for="PetalNum"> Petals Amount: </label>
+        <input type="number" id="PetalNum" name="PetalNum"> </div>
+        </div>
+
+        <button type="button" onclick="ProcessForm();"> Register Information </button>
+    </main>
+    <footer id="DisplayFlorInfo">
+    <h2> Flower Information</h2>
+    <div id="DivOutput"> </div>
+    </footer>
+</body>
+</html>
+
+<!-- 
+6/18/2025
+-->
