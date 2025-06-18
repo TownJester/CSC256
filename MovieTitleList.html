@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Demo Movie</title>
+    <link rel="stylesheet" href="CSS\MovieCSS.css">
+</head>
+<body>
+    <header>
+        <h1> Movie Page </h1>
+    </header>
+
+    <main>
+    <section>
+        <h2> List of Movies </h2>
+        
+        <label for="MovieNameText"> Add a Movie Title: </label>
+        <input type="text" id="MovieNameText" name="MovieNameText" placeholder="Movie Title" required>
+
+    <div>
+        <button type="submit" onclick="AddMovie();"> Add Movie</button>
+        <button onclick="ResetList();">Reset List</button>
+    </div>
+
+    <div id=MovieDis></div>
+    </section>
+    </main>
+</body>
+    <script src="JavaScript/MovieList.js"></script>
+
+</html>
+
+<!-- 
+6/11/2025 
+6/18/2025
+-->
