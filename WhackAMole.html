@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Whack-A-Mole</title>
+    <link rel="stylesheet" href="CSS/WhackAMoleCSS.css">
+</head>
+<body>
+    <header><h1>Wack-a-Mole Game</h1></header>
+    <main>
+        <p>
+            <!--  The score during the round will be displayed here -->
+            Score: <span id="SpnScore"></span>
+        </p>
+        <!-- display board -->
+         <div id="DivGameBoard">
+            <!-- Holes will be built here -->
+             <div class="Hole"></div>
+             <div class="Hole"></div>
+             <div class="Hole"></div>
+             <div class="Hole"></div>
+             <div class="Hole"></div>
+             <div class="Hole"></div>
+         </div>
+         <!-- button to start game> -->
+          <input type="button" onclick="StartGame();" value="Let's Play!">
+    </main>
+    <script src="JavaScript/RandomEventWAMGame.js"></script>
+</body>
+</html>
