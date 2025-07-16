@@ -1,0 +1,23 @@
+        #DiveGameBoard{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .Hole{
+            width: 100px;
+            height: 100px;
+            background-color: #0c1035;
+            border-radius: 50%;
+            padding: 5px;
+            margin:10px;
+        }
+        input{
+            background-color: #0c1035;
+            color:whitesmoke;
+            padding: 5px;
+            font-size: large;
+        }
+        /* when the mole appears it will turn the color (image could also be swapped in) */
+        .Mole{
+            background-color: #6d4b24;
+        }
